@@ -1,0 +1,14 @@
+$ORIGIN saoirse.home.arpa.
+@               86400   IN  SOA     ns.saoirse.home.arpa. tamado.tamado.codes. 1 7200 3600 1209600 3600
+                86400   IN  NS      ns.saoirse.home.arpa.
+                86400   IN  A       10.88.0.1
+
+ns              86400   IN  A       10.88.0.2
+kafka-0         86400   IN  A       10.88.0.10
+kafka-1         86400   IN  A       10.88.0.11
+kafka-2         86400   IN  A       10.88.0.12
+dnsproxy        86400   IN  A       10.88.0.88
+postgres        86400   IN  A       10.88.0.100
+haproxy         86400   IN  A       10.88.0.101
+
+calendar        86400   IN  CNAME   haproxy.saoirse.home.arpa
