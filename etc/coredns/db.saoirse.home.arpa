@@ -7,8 +7,7 @@ ns              86400   IN  A       10.88.0.2
 kafka-0         86400   IN  A       10.88.0.10
 kafka-1         86400   IN  A       10.88.0.11
 kafka-2         86400   IN  A       10.88.0.12
-dnsproxy        86400   IN  A       10.88.0.88
 postgres        86400   IN  A       10.88.0.100
 haproxy         86400   IN  A       10.88.0.101
 
-calendar        86400   IN  CNAME   haproxy.saoirse.home.arpa
+calendar        86400   IN  CNAME   haproxy.saoirse.home.arpa.

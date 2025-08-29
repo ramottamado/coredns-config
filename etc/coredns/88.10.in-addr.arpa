@@ -7,6 +7,5 @@ $TTL 86400
 10.0            IN  PTR     kafka-0.saoirse.home.arpa.
 11.0            IN  PTR     kafka-1.saoirse.home.arpa.
 12.0            IN  PTR     kafka-2.saoirse.home.arpa.
-88.0            IN  PTR     dnsproxy.saoirse.home.arpa.
 100.0           IN  PTR     postgres.saoirse.home.arpa.
 101.0           IN  PTR     haproxy.saoirse.home.arpa.
